@@ -4,7 +4,8 @@ import grow from './assets/grow_together.svg'
 
 const Content2 = () => {
   return (
-    <div style={{display:'flex',width:'100%',paddingTop:'171px',backgroundImage: `url(${back})`,backgroundSize:'cover',paddingBottom:'200px',}} > 
+    <div style={{display:'flex',width:'100%',paddingTop:'171px',backgroundImage: `url(${back || './assets/blue_background.svg'})`
+    ,backgroundSize:'cover',paddingBottom:'200px',}} > 
     <div style={{display:'flex',justifyContent:'space-around',alignItems:'center'}}>
       <div style={{width: '32%'}}>
         <div style={{color: '#00252E' ,fontFamily: 'Poppins', fontSize: '40px',  fontWeight: '700',paddingBottom:'20px'}}>Grow Together</div>
